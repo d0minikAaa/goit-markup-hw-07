@@ -1,0 +1,12 @@
+.logo {
+  font-family: $logoFont;
+  font-size: 1.62rem;
+  font-weight: 700;
+  color: $headingColor;
+  text-decoration: none;
+  line-height: 1.17;
+
+  &--color {
+    color: $secondaryColor;
+  }
+}

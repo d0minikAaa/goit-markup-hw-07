@@ -1,0 +1,24 @@
+.job-section {
+  @extend .section;
+  padding-top: 0;
+}
+
+.job-list {
+  @extend .list;
+
+  &__item {
+    position: relative;
+  }
+
+  &__label {
+    width: 370px;
+    font-size: 0.87rem;
+    font-weight: 700;
+    background-color: #2f303acc;
+    color: $primaryWhite;
+    text-align: center;
+    padding: 27px 90px;
+    position: absolute;
+    bottom: 5px;
+  }
+}

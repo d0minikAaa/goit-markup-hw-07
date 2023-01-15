@@ -1,0 +1,21 @@
+.clients-icons-border {
+  fill: $primaryIconsColor;
+  border: 1px solid $primaryIconsColor;
+  border-radius: 3px;
+  width: 170px;
+  height: 92px;
+  transition: $primaryTransition;
+  transition-duration: $transitionDuration;
+}
+
+.clients-icons-border:hover,
+.clients-icons-border:focus,
+.clients-icons-border:active {
+  fill: $secondaryColor;
+  border: 1px solid $secondaryColor;
+  cursor: pointer;
+}
+
+.clients-icons {
+  @extend .list;
+}

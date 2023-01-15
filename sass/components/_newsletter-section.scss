@@ -1,0 +1,47 @@
+.newsletter-section {
+  margin-left: 8px;
+
+  &__title {
+    font-weight: 700px;
+    font-size: 0.875;
+    color: $primaryWhite;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
+
+.newsletter-email {
+  width: 358px;
+  height: 50px;
+  background-color: $footerColorBg;
+  color: #ffffff99;
+  border: 2px solid #ffffff99;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+}
+
+.newsletter-button {
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 76px 10px 42px;
+  color: $primaryWhite;
+  background-color: $secondaryColor;
+  width: 200px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 2px 1px 0px #00000030;
+  border-radius: 4px;
+  position: absolute;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.icon-icon-send {
+  position: relative;
+  left: 155px;
+  bottom: -5px;
+}

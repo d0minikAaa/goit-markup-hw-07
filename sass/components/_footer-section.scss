@@ -1,0 +1,39 @@
+.container-footer {
+  @extend .container;
+  padding-top: 60px;
+  display: flex;
+  gap: 70px;
+}
+
+.location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.71;
+  color: $primaryWhite;
+}
+
+.footer-address-links {
+  @extend .location;
+  color: #ffffff99;
+  display: block;
+  padding-top: 9px;
+}
+
+.footer-adress {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: $footerColorBg;
+}
+
+.join-us-section__title {
+  font-weight: 700px;
+  font-size: 0.875;
+  color: $primaryWhite;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
